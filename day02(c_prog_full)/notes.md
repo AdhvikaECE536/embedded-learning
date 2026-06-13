@@ -1,3 +1,8 @@
+# Note
+
+These are the programs i am going to practice on, given when prompted for me to revise and strenghten my base in C programming. 
+
+---
 
 Create your workspace now:
 ```bash
