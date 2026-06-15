@@ -1,5 +1,4 @@
-<img width="928" height="652" alt="image" src="https://github.com/user-attachments/assets/e96442ad-032f-44cf-9ad0-69cd364e88e3" /><img width="928" height="652" alt="image" src="https://github.com/user-attachments/assets/d0323136-8986-4eb6-a9b3-bba84336214a" />
-
+<img width="928" height="652" alt="image" src="https://github.com/user-attachments/assets/e96442ad-032f-44cf-9ad0-69cd364e88e3" />
 #### Code:
 
 ```c
