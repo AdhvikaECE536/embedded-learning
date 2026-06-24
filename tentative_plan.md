@@ -1657,3 +1657,328 @@ When stuck, search exactly these:
 | Vivado error | "vivado constraint file xdc tutorial" |
 
 ---
+Here is your **Google Search Strategy** for the entire 52-week plan. Organized by phase, with exact search queries, recommended forums, and free book sources. Use this to stay off AI and build real research skills.
+
+---
+
+## Search Philosophy
+
+| Instead of asking AI... | Search like this |
+|------------------------|------------------|
+| "explain pointers in C" | `site:stackoverflow.com C pointers explained with diagrams` |
+| "how does fork work" | `man 2 fork` (terminal) OR `site:man7.org fork` |
+| "xv6 lab help" | `site:csail.mit.edu xv6 lab 1 solution` |
+| "best book for OS" | `site:reddit.com r/OSDev best textbook operating systems` |
+
+**Why forums > AI for you:**
+- Stack Overflow answers are **vetted by votes**
+- Reddit threads have **multiple conflicting opinions** (forces you to think)
+- University course pages have **actual assignments and solutions**
+- Man pages are **authoritative**, not guessed
+
+---
+
+## PHASE 0: FOUNDATION (Weeks 1–4)
+
+### C Programming
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| K&R C solutions | `"The C Programming Language" solutions exercises pdf` |
+| C pointer confusion | `site:stackoverflow.com C pointer arithmetic explained` |
+| `fork()` behavior | `site:man7.org fork() linux programmer manual` |
+| `execvp` vs `execl` | `site:stackoverflow.com difference execvp execl execve` |
+| Pipe tutorial | `site:geeksforgeeks.org pipe() system call C` |
+| Memory leak detection | `valgrind tutorial C memory leak examples` |
+| GDB basics | `site:sourceware.org GDB tutorial beginner` |
+| Function pointers | `site:stackoverflow.com C function pointer syntax explained` |
+
+**Forums to bookmark:**
+- `stackoverflow.com/questions/tagged/c`
+- `reddit.com/r/C_Programming/`
+- `c-faq.com` (old but gold, every C question answered)
+
+**Free books:**
+- `https://en.wikipedia.org/wiki/The_C_Programming_Language` (buy used, but reference here)
+- `https://beej.us/guide/bgc/` (Beej's Guide to C Programming — free, conversational)
+
+---
+
+### Linux / Terminal
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| Linux command cheat sheet | `site:linuxcommand.org beginner cheat sheet` |
+| GCC flags explained | `site:gcc.gnu.org invoking gcc options` |
+| Makefile tutorial | `site:makefiletutorial.com` |
+| Git basics | `site:git-scm.com book pro git free` |
+| Bash scripting | `site:tldp.org advanced bash scripting guide` |
+
+**Free books:**
+- `https://git-scm.com/book/en/v2` (Pro Git — official, free)
+- `https://linuxcommand.org/tlcl.php` (The Linux Command Line — free PDF)
+
+---
+
+### Digital Logic / Logisim
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| Logisim tutorial | `site:circuitverse.org logisim evolution tutorial` |
+| Half adder to full adder | `site:allaboutcircuits.com half adder full adder` |
+| ALU design | `site:nand2tetris.org ALU design project` |
+| FSM tutorial | `site:allaboutcircuits.com finite state machines` |
+| Moore vs Mealy | `site:geeksforgeeks.org moore mealy machine difference` |
+
+**Forums:**
+- `reddit.com/r/logisim/`
+- `reddit.com/r/FPGA/` (advanced but helpful)
+
+**Free course:**
+- `https://www.nand2tetris.org/` (build a computer from logic gates — matches your MIPS course perfectly)
+
+---
+
+## PHASE 1: OPERATING SYSTEMS (Weeks 5–14)
+
+### MIPS Assembly
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| MARS simulator download | `MARS MIPS simulator Missouri State download` |
+| MIPS syscall table | `site:courses.missouristate.edu MARS syscall table` |
+| MIPS instruction reference | `site:mips.com MIPS32 instruction set manual` |
+| `jal` vs `j` | `site:stackoverflow.com MIPS jal vs j difference` |
+| Stack frame in MIPS | `site:cs.uwm.edu MIPS stack frame calling convention` |
+
+**Forums:**
+- `stackoverflow.com/questions/tagged/mips`
+- `reddit.com/r/asm/`
+
+**Free books:**
+- `https://www.cs.uwm.edu/~cs371/mips_ref.pdf` (MIPS reference card — print this)
+- Patterson & Hennessy — buy used, but `https://academia.edu` sometimes has chapters
+
+---
+
+### xv6 Operating System
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| xv6-riscv download | `site:github.com mit-pdos xv6-riscv` |
+| xv6 book PDF | `xv6 book riscv pdf` |
+| xv6 lab solutions | `site:csail.mit.edu xv6 lab 1 solution sleep` |
+| xv6 system call add | `site:stackoverflow.com xv6 add system call` |
+| xv6 scheduler | `site:github.com xv6 scheduler code explained` |
+
+**Forums:**
+- `reddit.com/r/osdev/`
+- `piazza.com` (if your college has xv6 course)
+
+**Free book:**
+- `https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf` (official xv6 book, free)
+
+---
+
+### OS Theory (Scheduling, Memory, File Systems)
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| Banker's algorithm | `site:geeksforgeeks.org bankers algorithm C program` |
+| Page replacement algorithms | `site:scaler.com page replacement FIFO LRU optimal` |
+| Disk scheduling | `site:tutorialspoint.com disk scheduling algorithms` |
+| inode structure | `site:ext4.wiki.kernel.org inode structure` |
+
+**Forums:**
+- `reddit.com/r/OSDev/`
+- `stackoverflow.com/questions/tagged/operating-system`
+
+**Free book:**
+- `https://pages.cs.wisc.edu/~remzi/OSTEP/` (Operating Systems: Three Easy Pieces — **the best free OS textbook**)
+
+---
+
+## PHASE 2: REAL-TIME SYSTEMS (Weeks 15–22)
+
+### Real-Time Theory
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| Rate monotonic scheduling | `site:cmu.edu rate monotonic scheduling example` |
+| EDF schedulability | `site:ncsu.edu earliest deadline first analysis` |
+| Priority inversion | `site:nasa.gov Mars Pathfinder priority inversion` |
+| Response time analysis | `site:real-time-systems.com response time analysis` |
+
+**Forums:**
+- `reddit.com/r/embedded/`
+- `stackoverflow.com/questions/tagged/real-time`
+
+**Free book:**
+- `https://www.springer.com/gp/book/9781441982360` (Kopetz — check library, or `libgen.is` if desperate)
+
+---
+
+### FreeRTOS
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| FreeRTOS manual PDF | `site:freertos.org mastering the freertos kernel pdf` |
+| FreeRTOS STM32 tutorial | `site:stm32world.com freertos stm32 cubeide tutorial` |
+| Task priorities | `site:freertos.org task priorities explained` |
+| Queue vs semaphore | `site:stackoverflow.com freertos queue vs semaphore` |
+
+**Forums:**
+- `https://forums.freertos.org/` (official, very active)
+- `reddit.com/r/embedded/`
+
+**Free book:**
+- `https://www.freertos.org/Documentation/RTOS_book.html` (Mastering the FreeRTOS Kernel — **legally free PDF**)
+
+---
+
+### CAN Bus / Automotive
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| CAN protocol tutorial | `site:csselectronics.com CAN bus tutorial` |
+| MCP2515 Arduino | `site:arduino.cc MCP2515 CAN bus example` |
+| OBD-II PID list | `site:obd-ii.com PID parameters` |
+| AUTOSAR basics | `site:autosar.org AUTOSAR classic platform introduction` |
+
+**Forums:**
+- `reddit.com/r/CarHacking/`
+- `reddit.com/r/embedded/`
+
+**Free resources:**
+- `https://www.csselectronics.com/pages/can-bus-tutorial-intro` (best visual CAN tutorial)
+- `https://www.autosar.org/standards/classic-platform/` (official, dry but correct)
+
+---
+
+## PHASE 3: ADVANCED ARCHITECTURE (Weeks 23–34)
+
+### Pipeline / Cache / Computer Architecture
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| 5-stage MIPS pipeline | `site:cse.unl.edu MIPS 5 stage pipeline hazards` |
+| Tomasulo algorithm | `site:cs.cmu.edu tomasulo algorithm example walkthrough` |
+| Cache simulator | `site:github.com cache simulator C code` |
+| MESI protocol | `site:stackoverflow.com MESI cache coherence example` |
+
+**Forums:**
+- `reddit.com/r/compsci/`
+- `reddit.com/r/chipdesign/`
+
+**Free book:**
+- `https://www.cs.cmu.edu/~fp/courses/15213-s07/lectures/27-Cache.pdf` (CMU cache lecture notes)
+- Hennessy & Patterson — buy used, or check `academia.edu`
+
+---
+
+### OpenMP / MPI / Parallel Computing
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| OpenMP tutorial | `site:openmp.org OpenMP beginner tutorial` |
+| MPI tutorial | `site:mpitutorial.com MPI beginner` |
+| False sharing | `site:stackoverflow.com false sharing cache line example` |
+| Amdahl's law calculator | `site:geeksforgeeks.org amdahls law speedup` |
+
+**Forums:**
+- `stackoverflow.com/questions/tagged/openmp`
+- `stackoverflow.com/questions/tagged/mpi`
+
+**Free book:**
+- `https://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf` (Intro to High Performance Computing — free)
+
+---
+
+## PHASE 4: FPGA (Weeks 31–40)
+
+### Verilog / FPGA Design
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| Icarus Verilog tutorial | `site:iverilog.com getting started` |
+| Verilog always block | `site:stackoverflow.com verilog always block blocking nonblocking` |
+| Vivado WebPACK download | `site:xilinx.com vivado webpack download free` |
+| AXI4-lite tutorial | `site:zipcpu.com axi4-lite tutorial` |
+
+**Forums:**
+- `reddit.com/r/FPGA/`
+- `https://forum.digilentinc.com/` (Digilent FPGA forum)
+
+**Free books:**
+- `https://www.asic-world.com/verilog/` (ASIC World Verilog tutorial — classic)
+- `https://www.xilinx.com/support/documentation-navigation/design-hubs.html` (Xilinx official)
+
+---
+
+## PHASE 5: ROBOTICS / INTEGRATION (Weeks 37–48)
+
+### ROS2
+
+| Topic | Exact Google Search |
+|-------|---------------------|
+| ROS2 Humble install | `site:docs.ros.org humble installation ubuntu` |
+| ROS2 publisher subscriber | `site:docs.ros.org writing a simple publisher subscriber C++` |
+| micro-ROS ESP32 | `site:micro.ros.org esp32 freeRTOS getting started` |
+
+**Forums:**
+- `https://answers.ros.org/questions/` (official ROS Q&A)
+- `reddit.com/r/ROS/`
+
+---
+
+## GENERAL RESEARCH SKILLS
+
+### How to Find Solutions Without AI
+
+| Problem Type | Where to Search First |
+|-------------|----------------------|
+| Compiler error | Paste error into Google with `site:stackoverflow.com` |
+| Tool not installing | `site:github.com [tool] issues [error message]` |
+| Concept confused | `site:reddit.com [topic] ELI5` |
+| Need textbook | `[book name] pdf site:academia.edu OR site:researchgate.net` |
+| Need video | `[topic] lecture site:youtube.com` |
+| Need official docs | `[tool] documentation site:[tool].org` |
+
+### Google Operators to Memorize
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `"exact phrase"` | Exact match | `"rate monotonic scheduling"` |
+| `site:xyz.com` | Only search this site | `site:stackoverflow.com fork()` |
+| `filetype:pdf` | PDF only | `computer architecture filetype:pdf` |
+| `-word` | Exclude | `python tutorial -w3schools` |
+| `intitle:` | In title | `intitle:xv6 lab solution` |
+
+---
+
+## Your Weekly Search Routine (10 Minutes)
+
+Every Sunday, search these for the upcoming week:
+
+1. `[topic] tutorial site:youtube.com` (find 1 video)
+2. `[topic] explained site:stackoverflow.com` (find 2 answers)
+3. `[topic] pdf filetype:pdf` (find 1 reference doc)
+4. `[topic] forum site:reddit.com` (find 1 discussion)
+
+**Bookmark them in a folder.** Name it `Week-5-MIPS` or whatever.
+
+---
+
+## Start Tonight
+
+Instead of asking me what to do, search this:
+
+```
+"fork() explained" site:stackoverflow.com
+```
+
+Read the top 3 answers. Then type `man 2 fork` in your terminal. Then write `fork_hello.c`.
+
+**You found the answer yourself. That is the skill.**
+
+---
